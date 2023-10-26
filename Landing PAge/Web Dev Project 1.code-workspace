@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../Web Dev Project 1"
+		},
+		{
+			"path": "../../javascript"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Documents/ReactJs"
+		},
+		{
+			"path": "../../../Documents/Tailwind CSS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Creating Website"
+	}
+}

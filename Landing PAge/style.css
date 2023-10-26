@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: transparent */
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    /* background-color: transparent; */
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: transparent */
+}
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    /* background-color: transparent    */
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+#nav img{
+    height: 52px;
+}
+#nleft, #nright{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav a{
+    pointer-events: all;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+       
+}
+#hleft{
+    min-width: 50%;
+   
+    
+}
+#hleft button{
+    pointer-events: all;
+    margin-top: 2vw;
+    padding: .8vw 3vw;
+    font-size: 4vw;
+    font-family: "kajiro";
+}
+#hright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    color: #fff;
+    
+
+    
+}
+#hright p{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+#hright #imagediv{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(https://media.istockphoto.com/id/1463973381/photo/abstract-blue-splashes-and-black-background.webp?b=1&s=170667a&w=0&k=20&c=RC3qfeeIjhkmNaqhCSdQpi0NPUUdaEw5j1I572i_O5g=);
+    background-size: cover;
+    background-position: center;
+}
+.hright p:not(3){
+    margin-bottom: 100px;
+}
+
+#hleft .elem{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+    /* background-color: red; */
+}
+#hleft .elem h1:nth-child(1){
+    top: 0;
+}
+#hleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-family: "kajiro";
+    /* width: 10vw; */
+    line-height: .9;
+    font-weight: 100;
+    
+    color: #f5f6f8;
+    font-size: 11vw;
+}
